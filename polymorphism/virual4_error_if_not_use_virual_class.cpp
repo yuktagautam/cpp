@@ -50,42 +50,6 @@ class A
 		{
 		}
 };
-class B: virtual public A
-{
-	public:
-		void show_mpr(){
-		}
-};
-class C: virtual public A
-{
-	public:
-		void show_acr(){
-		}
-};
-class D:public B,public C
-{
-	public:
-		void show()
-		{
-			
-		}
-};
-int main()
-{
-	D obj;
-	 obj.get();  //error  // as it two copies are there
-	 
-}
-#include<iostream>
-#include<conio.h>
-using namespace std;
-class A
-{
-	public:
-		void get()
-		{
-		}
-};
 class B:public A
 {
 	public:
